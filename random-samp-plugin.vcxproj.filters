@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="detours">
+      <UniqueIdentifier>{b68ede1f-9929-4c92-8299-660d5e4cd0fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logger">
+      <UniqueIdentifier>{552e63e0-2306-44fa-925b-80e860f240de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="raknet">
+      <UniqueIdentifier>{21afe980-8b1e-46da-8724-6b3ff0c60b28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NotMineStuff">
+      <UniqueIdentifier>{416a09e6-1681-488d-a7ed-92ff1333667f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="RandomSampPlugin.cpp" />
+    <ClCompile Include="raknet\BitStream.cpp">
+      <Filter>raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="NotMineStuff\hook_utils.cpp">
+      <Filter>NotMineStuff</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger\Logger.cpp">
+      <Filter>Logger</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RandomSampPlugin.h" />
+    <ClInclude Include="raknet\BitStream.h">
+      <Filter>raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="raknet\RakClientInterface.h">
+      <Filter>raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="NotMineStuff\hook_utils.h">
+      <Filter>NotMineStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger\Logger.h">
+      <Filter>Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="detours\detours.h">
+      <Filter>detours</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
