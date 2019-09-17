@@ -1,2 +1,2 @@
 # SAMP-Random-Plugin
-Plugin for testing Raknet and PluginSDK (by DK22Pac)
+Plugin for testing RakNet and PluginSDK (by DK22Pac)
